@@ -9,7 +9,6 @@ def receive_data():
         temperature = data.get('temperature')
         humidity = data.get('humidity')
         
-        # Log data to console (or process as needed)
         print(f"Received data - Temperature: {temperature}C, Humidity: {humidity}%")
         
         response = {
